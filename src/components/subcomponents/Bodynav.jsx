@@ -7,7 +7,7 @@ export default function Bodynav() {
 
                 <div className='w-[40%]'>
                     <div className='relative'>
-                        <input type="text" name="" id="" className='  w-[100%] border-[2px] rounded-lg py-1 px-3 ' placeholder='Search with CHAT GPT' />
+                        <input type="text" name="" id="" className='  w-[100%] border-[2px] rounded-lg py-1 px-3 ' placeholder='Search' />
                         <BsSearch className='absolute top-2 right-3 text-xl cursor-pointer' />
                     </div>
 

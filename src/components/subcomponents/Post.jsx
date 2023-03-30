@@ -36,7 +36,7 @@ export default function Post(props) {
 
             {/* the div below is for media attachments regarding the post */}
             <div className="mediacontainer py-2 flex justify-center">
-                <img src="https://source.unsplash.com/500x250/?aesthetic" alt="" className='rounded' />
+                <img src={props.item.img} alt="" className='rounded' />
             </div>
 
             <div className='border-2 border-gray-400 rounded-md px-2 py-1 text-xs'>
